@@ -123,10 +123,33 @@ h1, h2, h3 {
   text-decoration: none;
   margin-right: 1rem;
   transition: background 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .btn:hover {
   background-color: #0066cc;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15%);
+  }
+}
+
+.bounce {
+  animation: bounce 0.5s ease-in-out;
 }
 
 /* Projects */
@@ -197,6 +220,7 @@ button[type="submit"]:hover {
   .nav-links {
     display: none;
   }
+
   .hamburger {
     display: block;
   }

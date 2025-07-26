@@ -49,8 +49,9 @@ export default function NavBar() {
             ☰
           </button>
         </div>
-      </nav>
-
+          </nav>
+          
+    
       {/* Sidebar for small screens */}
       <div className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
         <button className="close-btn" onClick={closeSidebar}>
