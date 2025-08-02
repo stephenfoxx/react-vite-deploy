@@ -153,10 +153,50 @@ h1, h2, h3 {
 }
 
 /* Projects */
-.project-cards {
+
+.general-card{
+  display: flex;
+  padding-left: 40px;
+  outline: #001f3f;
+  width: 1000px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  outline: 2px solid white;
+  border-radius: 5px;
+  
+  
+}
+
+.project-cards{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  
+  gap: 50px;
+}
+
+.project-card{
+  display: flex;
+  gap: 30px
+}
+
+.project-image{
+  width: 500px;
+  height: 300px;
+  border-radius: 5.5px;
+}
+
+.features{
+  display: flex;
+
+}
+
+.bold{
+   color: #1e90ff;
+
+}
+
+.links{
+  gap: 10px;
 }
 
 .card {
@@ -175,6 +215,60 @@ h1, h2, h3 {
 /* Skills */
 .skills-container > div {
   margin-bottom: 1rem;
+
+}
+
+.skill-div{
+  display: grid;
+  
+  grid-template-columns: repeat(2, max-content);
+  gap: 15px;
+}
+
+.skill {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 4px;
+  outline: 2px solid white;
+}
+
+.skill-div2{
+   display: flex;
+  gap: 15px;
+}
+.skill-div3{
+   display: flex;
+  gap: 15px;
+   grid-template-columns: repeat(5, auto);
+}
+
+.skill3{
+
+   display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 4px;
+  outline: 2px solid white;
+}
+
+.jp{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 4px;
+  outline: 2px solid white;
+  font-size: 13px;
+  
 }
 
 /* Form */

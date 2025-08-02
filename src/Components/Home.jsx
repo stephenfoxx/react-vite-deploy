@@ -11,7 +11,10 @@ function Home() {
   };
 
   return (
-    <section className="home-section">
+    <section
+      className="home-section"
+      style={{ padding: "4rem 2rem", color: "white" }}
+    >
       <div className="intro">
         <h2>Hello, I'm</h2>
         <h1>Stephen Ogwu</h1>
