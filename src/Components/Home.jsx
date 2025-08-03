@@ -19,6 +19,7 @@ function Home() {
         <h2>Hello, I'm</h2>
         <h1>Stephen Ogwu</h1>
         <p>Front-End Developer | React Enthusiast | AI Explorer</p>
+        <br />
         <div
           className={`cta-buttons ${isBouncing ? "bounce" : ""}`}
           onClick={handleBounce}

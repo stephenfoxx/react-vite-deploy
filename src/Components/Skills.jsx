@@ -1,13 +1,15 @@
+import { main, section } from "framer-motion/client";
 import React from "react";
 
 
 function Skills() {
   return (
+
     <section className="skills-section">
-      <h2>Skills</h2>
       <div className="skills-container">
+      <h2 className="sc">Skills</h2>
         <div>
-          <h3>Technical Skills</h3>
+          <h3 className="skh3">Technical Skills</h3>
           <div className="skill-div">
             <div className="skill">HTML</div>
             <div className="skill">CSS</div>
@@ -20,7 +22,7 @@ function Skills() {
           </div>
         </div>
         <div>
-          <h3>Tools & Platforms</h3>
+          <h3 className="skh3">Tools & Platforms</h3>
           <div className="skill-div2">
             <div className="skill3">Jupyter Notebook</div>
             <div className="skill">Trello</div>
@@ -28,7 +30,7 @@ function Skills() {
           </div>
         </div>
         <div>
-          <h3>Soft Skills</h3>
+          <h3 className="skh3">Soft Skills</h3>
           <div className="skill-div3">
             <div className="skill3">Communication</div>
             <div className="skill3">Teamwork</div>

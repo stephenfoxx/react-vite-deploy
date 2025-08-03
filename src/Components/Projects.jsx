@@ -10,9 +10,9 @@ function Projects() {
     {
       title: "Chef Recipe Web Application",
       description: "AI-powered app that suggests recipes based on ingredients.",
-      url: "https://github.com/stephenfoxx/mamaflow-recipe-app",
+      url: "https://github.com/stephenfoxx/recipeapp",
       techstack: "React, CSS, Hugging face AI",
-     
+
       features: (
         <ul>
           <li>generates recipe based on ingredients inputted.</li>
@@ -28,7 +28,7 @@ function Projects() {
         "ML-based React tool predicting academic outcomes with 76% accuracy.",
       url: "https://github.com/stephenfoxx/students-performance-prediction",
       img: svm,
-      techstack:"HTML, CSS, JavaScript, Bootstrap, Kaggle",
+      techstack: "HTML, CSS, JavaScript, Bootstrap, Kaggle",
       features: (
         <ul>
           <li>analyzing student performance using support vector machines.</li>
@@ -75,7 +75,7 @@ function Projects() {
                 <div className="features">
                   <p><strong className="bold">key features:</strong>{ proj.features}</p>
                 </div>
-                <div className="links">
+                <div className="alinks">
                   <a href="">Live Demo</a>
                   <a
                     href={proj.url}

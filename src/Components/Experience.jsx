@@ -10,18 +10,32 @@ function Experience() {
         <p>
           <em>Sep 2021 – Aug 2023</em>
         </p>
-        <ul>
+        <ul className="ex-lists">
           <li>
-            Built responsive web applications using React.js, HTML, CSS,
-            JavaScript.
+            Delivered a high-performing e-commerce shopping platform (React.js,
+            Tailwind, PostgreSQL) for key retail client, integrating secure
+            payment gateways and an AI-powered product recommendation engine;
+            boosted online sales by 25% and elevated customer engagement.
           </li>
           <li>
-            Reduced site load time by 30% using lazy loading and performance
-            techniques.
+            Slashed website loading time by 30% through strategic React lazy
+            loading and performance optimization techniques, boosting site
+            efficiency and user retention.
           </li>
-          <li>Migrated legacy code to React, improving maintainability.</li>
           <li>
-            Integrated REST APIs and enhanced UI for better user experience.
+            Spearheaded the migration of legacy code to a modern React
+            framework, enhancing scalability and maintainability, paving the way
+            for future-proof applications.
+          </li>
+          <li>
+            Collaborated closely with back-end teams to integrate REST API’s,
+            ensuring smooth data flow which improved operational efficiency and
+            minimized redundancies by 20%
+          </li>
+          <li>
+            Conducted thorough reviews and UI enhancements, significantly
+            improving application quality, usability, and end-user satisfaction
+            metrics.
           </li>
         </ul>
       </div>
