@@ -26,7 +26,7 @@ function Projects() {
       title: "Student Performance Prediction",
       description:
         "ML-based React tool predicting academic outcomes with 76% accuracy.",
-      url: "https://github.com/stephenfoxx/students-performance-prediction",
+      url: "https://github.com/stephenfoxx/students-performance-prediction/tree/master",
       img: svm,
       techstack: "HTML, CSS, JavaScript, Bootstrap, Kaggle",
       features: (
