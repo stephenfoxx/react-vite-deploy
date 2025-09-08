@@ -1,6 +1,6 @@
 // src/pages/Projects.jsx
 import React from "react";
-import chefflow from "/src/images/chefflow.png";
+import tenzies from "/src/images/tenzies.png";
 import svm from "/src/images/svm.png";
 import jumia from "/src/images/jumia.png";
 import { div, ul } from "framer-motion/client";
@@ -8,25 +8,11 @@ import { div, ul } from "framer-motion/client";
 function Projects() {
   const projectList = [
     {
-      title: "Chef Recipe Web Application",
-      description: "AI-powered app that suggests recipes based on ingredients.",
-      url: "https://github.com/stephenfoxx/recipeapp",
-      techstack: "React, CSS, Hugging face AI",
-
-      features: (
-        <ul>
-          <li>generates recipe based on ingredients inputted.</li>
-          <li>gives step by step guide to prepare recipe of meal derived.</li>
-          <li>free and easiliy accessible to use.</li>
-        </ul>
-      ),
-      img: chefflow,
-    },
-    {
       title: "Student Performance Prediction",
       description:
         "ML-based React tool predicting academic outcomes with 76% accuracy.",
       url: "https://github.com/stephenfoxx/students-performance-prediction/tree/master",
+      url2: "https://students-performance-prediction-mk1.vercel.app/",
       img: svm,
       techstack: "HTML, CSS, JavaScript, Bootstrap, Kaggle",
       features: (
@@ -39,6 +25,25 @@ function Projects() {
         </ul>
       ),
     },
+
+    {
+      title: "Tenzies game web application",
+      description:
+        "An interractive fun game where you match all dice with same number to win.",
+      url: "https://github.com/stephenfoxx/tenzies-game-app",
+      url2: "https://glistening-churros-e8b5ed.netlify.app/",
+      techstack: "React, CSS, JavaScript",
+
+      features: (
+        <ul>
+          <li>Interractive fun game for all.</li>
+          <li>Match all dice with the same number to win game.</li>
+          <li>Calming and simple to play. </li>
+        </ul>
+      ),
+      img: tenzies,
+    },
+
     {
       title: "E-Commerce Web App",
       description:
@@ -76,7 +81,8 @@ function Projects() {
                   <p><strong className="bold">key features:</strong>{ proj.features}</p>
                 </div>
                 <div className="alinks">
-                  <a href="">Live Demo</a>
+                  <a href={proj.url2}
+                  >Live Demo</a>
                   <a
                     href={proj.url}
                     target="_blank"
