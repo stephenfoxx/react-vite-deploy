@@ -11,10 +11,10 @@ function Projects() {
       title: "Student Performance Prediction",
       description:
         "ML-based React tool predicting academic outcomes with 76% accuracy.",
-      url: "https://github.com/stephenfoxx/students-performance-prediction/tree/master",
-      url2: "https://students-performance-prediction-mk1.vercel.app/",
+      url: "https://github.com/stephenfoxx/students-performance-prediction",
+      url2: "https://youtu.be/BcD5XCGrOIk",
       img: svm,
-      techstack: "HTML, CSS, JavaScript, Bootstrap, Kaggle",
+      techstack: "HTML, CSS, JavaScript, Python, Bootstrap, Kaggle",
       features: (
         <ul>
           <li>analyzing student performance using support vector machines.</li>
